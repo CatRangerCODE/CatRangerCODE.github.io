@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>James Alexander van Dyk — Portfolio</title>
+  <meta name="description" content="Portfolio of James Alexander van Dyk, a student developer in Witbank, South Africa, studying programming, web development and cyber security.">
+  <meta property="og:title" content="James Alexander van Dyk — Portfolio">
+  <meta property="og:description" content="Student developer in Witbank, South Africa. Projects, certificates and education.">
+  <meta name="theme-color" content="#1c1d1f">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='4' fill='%231c1d1f'/%3E%3Crect x='19' y='8' width='7' height='16' fill='%2350fa7b'/%3E%3Cpath d='M6 10l6 6-6 6' fill='none' stroke='%23ff5fa2' stroke-width='2.5'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <div class="wrap">
+    <header class="site-header">
+      <a href="#top" class="ps1"><span class="u">jvd@portfolio</span>:<span class="p">~</span>$</a>
+      <nav aria-label="Main">
+        <a href="#projects">./projects</a>
+        <a href="#certs">./certs</a>
+        <a href="#education">./education</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section id="top" class="hero">
+        <span class="cmd"><span class="ps1"><span class="u">jvd@portfolio</span>:<span class="p">~</span>$</span> whoami</span>
+        <h1 class="typed-name" aria-label="James Alexander van Dyk">
+          <span class="ghost" aria-hidden="true">James Alexander
+van Dyk<span class="cursor"></span></span>
+          <span class="live" aria-hidden="true"><span id="typed">James Alexander
+van Dyk</span><span class="cursor"></span></span>
+        </h1>
+        <p class="lead">Student developer · Witbank, South Africa. Level 1 Computer Programming and Web Development complete; Cyber Security (Level 2) next, in 2027.</p>
+        <div class="buttons">
+          <a class="btn" href="https://github.com/CatRangerCODE" target="_blank" rel="noopener noreferrer">[ github ]</a>
+          <a class="btn" href="https://www.linkedin.com/in/james-alexander-van-dyk-486051343/" target="_blank" rel="noopener noreferrer">[ linkedin ]</a>
+        </div>
+      </section>
+
+      <section id="projects" class="section" aria-labelledby="projects-title">
+        <h2 id="projects-title"><span class="ps1"><span class="u">jvd@portfolio</span>:<span class="p">~</span>$</span> ls <span class="arg">~/projects</span></h2>
+        <div id="project-list" class="project-list"></div>
+      </section>
+
+      <section id="certs" class="section" aria-labelledby="certs-title">
+        <h2 id="certs-title"><span class="ps1"><span class="u">jvd@portfolio</span>:<span class="p">~</span>$</span> cat <span class="arg">certifications.txt</span></h2>
+        <div id="cert-list" class="cert-grid"></div>
+      </section>
+
+      <section id="education" class="section section-last" aria-labelledby="education-title">
+        <h2 id="education-title"><span class="ps1"><span class="u">jvd@portfolio</span>:<span class="p">~</span>$</span> history <span class="flag">--education</span></h2>
+        <div class="row">
+          <span class="date">2027</span>
+          <div class="row-body">
+            <span class="title">Cyber Security — Level 2</span>
+            <span class="muted">NewBridge Graduate Institute, Witbank · next year</span>
+          </div>
+        </div>
+        <div class="row">
+          <span class="date">2026</span>
+          <div class="row-body">
+            <span class="title">Computer Programming and Web Development — Level 1</span>
+            <span class="muted">NewBridge Graduate Institute, Witbank · completed</span>
+          </div>
+        </div>
+        <div class="row">
+          <span class="date">2025</span>
+          <div class="row-body">
+            <span class="title">Matriculated — HTS Witbank</span>
+            <span class="muted">Admission to bachelor's degree study · completed</span>
+          </div>
+        </div>
+        <div class="row">
+          <span class="date">2007</span>
+          <div class="row-body">
+            <span class="title"><span class="ok">git init</span> james</span>
+            <span class="muted">Initial commit: born. Running without a crash ever since.</span>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">© <span id="year">2026</span> James Alexander van Dyk · <span class="ok">exit 0</span></footer>
+  </div>
+
+  <noscript><p class="wrap muted">Projects and certificates need JavaScript to display.</p></noscript>
+
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
