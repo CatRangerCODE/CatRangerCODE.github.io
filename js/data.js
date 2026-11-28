@@ -1,4 +1,12 @@
-const projects = [];
+const projects = [
+  {
+  title: 'python-weighbridge-project',
+  date: '11-2026',
+  description: 'A ticketing system that creates waybills for any business that uses a weighbridge system, used for imports and exports. Also able to print a receipt.',
+  tags: ['python'],
+  link: 'https://github.com/CatRangerCODE/Python-Weighbridge-Project'
+}
+];
 
 const certificates = [
   {
